@@ -47,10 +47,10 @@ const nextConfig = {
   // Permite asociar tipos de ficheros para su lectura.
   pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
   // Permite obtimizar las imagenes.
-  images: {
-    loader: 'custom',
-    loaderFile: './my/image/loader.js',
-  },
+  // images: {
+  //   loader: 'custom',
+  //   loaderFile: './my/image/loader.js',
+  // },
   // Permite comprimir archivos, tambien actua con la respuesta del servidor convirtiendola en un formato más pequeño.
   compress: false,
   // Hace que tenga en cuenta las redirecciones, ser restrictivo con los barras laterales en cada redirevvion.
