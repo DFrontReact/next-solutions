@@ -1,38 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Ejercicio 1: Configuración de los archivos .env.* dependiendo del entorno de ejecución.
 
-## Getting Started
+Configurar las variables de entorno que se requiera usar dependiendo del entorno.
 
-First, run the development server:
+A tener en cuenta los siguientes ficheros:
+- .env.local
+- .env.development
+- .env.production
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Ejercicio 2: Configuración del archivo Next.config.js.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Configurar los valores que necesitemos configurar para que el servidor entienda lo que queremos que haga en cada momento.
+Como por ejemplo la pagina de inicio, mostrar una vista diferente segun lo que le especfiques, etc. 
+Entre ellos tenemos:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- env
+- basePath
+- rewrites
+- redirects
+- headers
+- images
+- pageExtensions
+- compress
+- trailingSlash
+- distDir
+- reactStrictMode
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Ejercicio 3: Configuración Imagenes / Fuentes 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Configurar imagenes y fuentes, dependera de donde queremos tener alojada las fuentes y las imagenes que van a mostrarse.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Local
+- Dominio externo
