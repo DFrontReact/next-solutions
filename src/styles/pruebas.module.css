@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto BoldItalic";
+    src: url("./../fonts/Roboto-BoldItalic.woff2");
+}
+
+.parrafo {
+    font-family: "Roboto BoldItalic";
+    color: red;
+    font-size: 20px;
+}
