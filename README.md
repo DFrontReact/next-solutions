@@ -1,10 +1,9 @@
 ## Enunciado
 
-En este ejercicio vamos a crear la estructura de carpetas necesarias para poder tener las diferentes páginas que queremos desarrollar
+En este ejercicio vamos a hacer 3 llamadas a APIs usando los distintos métodos de Fetching de datos, rellenando así las páginas creadas anteriormente.
 
-Queremos lograr las siguientes páginas:
+Haremos la petición correspondiente en cada págica con el método indicado en cada una:
 
-- users: En esta página vamos a listar todos los usuarios. Para este ejercicio solo se precisa mostrar un div que diga que estamos en la lista de usuarios
-  - id: En esta página vamos a tener la ficha de un usuario en concreto que será el del id que asignemos como parámetro. Para este ejercicio solo se precisa mostrar un div que diga que estamos en la ficha del usuario
-    - albums: En esta página vamos a listar los albumes que pertenecen al usuario seleccionado. Para este ejercicio solo se precisa mostrar un div que diga que estamos en los albumes del usuario.
-- posts con slug: En esta página vamos a mostrar los jsons que nos devuelve las peticiones varias que vamos a hacer a posts en función de los parámetros que pongamos. Para este ejercicio solo se precisa mostrar un div que diga que estamos en la página de Posts sin importar que parámetros pongamos.
+- users: https://jsonplaceholder.typicode.com/users getStaticProps()
+  - id: https://jsonplaceholder.typicode.com/users/{id} getStaticPaths()
+    - albums: https://jsonplaceholder.typicode.com/users/{id}/albums getServerSideProps()
